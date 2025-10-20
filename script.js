@@ -21,7 +21,7 @@ let autoUpgrade = false;
 // 🎯 Bow animation controls attack speed
 let bowState = "idle";
 let bowTimer = 0;
-let drawDuration = 1000;  // lower = faster attack speed
+let drawDuration = 1000; // lower = faster attack speed
 let releaseDuration = 200;
 
 // 🕒 Timer
@@ -344,3 +344,4 @@ window.onload = () => {
 };
 
 requestAnimationFrame(gameLoop);
+
